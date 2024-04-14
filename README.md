@@ -32,18 +32,17 @@ so that you can generate floor properly.
     - config: `/run/run_Data/config/config.yaml`
     - log: `/run/run_Data/config/debug_log.txt`
 
-3.  Please ensure that the path in `config` is directed to your program's directory. 
+2.  Please ensure that the path in `config` is directed to your program's directory. 
      - `FileDir`: path of your docker shell script.
      - `mapsDir`: path of amcl global map.
      - `sceneDir`: path of pedsim scenarial file(.xml).
      - Make sure your Docker image name Docker run, and Docker exec commands are correct. If you are running your program locally, set `Enabled` to false.
      - If you want to add executable programs, please add them to `LaunchItems` in the LaunchItems section. Please make sure the names are not repeated.
      - If your program opens windows, you can add your window name in `AlignWindows` to position and size the window as desired.
-
+3. now you can open the application [here](https://github.com/oocami35029287/retail_arranger_execution/blob/main/run.x86_64).
 ### 2. Application Functions
+After you open the application, you may see the interface as follows,
 
-now you can open the application [here](https://github.com/oocami35029287/retail-arranger/blob/master/run/run.x86_64).
-And next, we will introduce the functionality.
 
 ![image](https://github.com/oocami35029287/retail-arranger/blob/master/doc/retail%20arranger%20demo.png)
 

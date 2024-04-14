@@ -27,7 +27,7 @@ so that you can generate floor properly.
 
 
 ### 1. Configure and preparation
-1. Once you install this program, you will use these few files.
+1. Once you install this program, you should mention these files.
     - app: `/run/run.x86_64`
     - config: `/run/run_Data/config/config.yaml`
     - log: `/run/run_Data/config/debug_log.txt`
@@ -36,9 +36,9 @@ so that you can generate floor properly.
      - `FileDir`: path of your docker shell script.
      - `mapsDir`: path of amcl global map.
      - `sceneDir`: path of pedsim scenarial file(.xml).
-4. Make sure your Docker image name, Docker run, and Docker exec commands are correct. If you are running your program locally, set `Enabled` to false.
-5. If you want to add executable programs, please add them to `LaunchItems` in the LaunchItems section. Please make sure the names are not duplicated.
-6. If your program opens windows, you can add your window name in `AlignWindows` to position and size the window as desired.
+     - Make sure your Docker image name Docker run, and Docker exec commands are correct. If you are running your program locally, set `Enabled` to false.
+     - If you want to add executable programs, please add them to `LaunchItems` in the LaunchItems section. Please make sure the names are not repeated.
+     - If your program opens windows, you can add your window name in `AlignWindows` to position and size the window as desired.
 
 ### 2. Application Functions
 
